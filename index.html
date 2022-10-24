@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./styles/global.css" />
+  </head>
+  <body>
+    <div id="container">
+      <section class="esquerda">
+        <img src="./images/coding.gif" alt="" />
+      </section>
+
+      <form id="form">
+        <div id="titulo">
+          <h1>SISTEMA DE RECADOS</h1>
+        </div>
+        <div class="inputs">
+          <input
+            id="input-username"
+            type="text"
+            placeholder="Usuário"
+            name="username"
+          /><br />
+          <input
+            id="input-password"
+            name="password"
+            type="password"
+            placeholder="Senha"
+          />
+        </div>
+        <button type="button" id="btn-login" onclick="login()">LOGIN</button>
+        <a id="link" href="./criarConta.html">criar conta</a>
+      </form>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

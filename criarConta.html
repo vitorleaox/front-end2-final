@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account</title>
+    <link rel="stylesheet" href="./styles/global.css" />
+  </head>
+  <body>
+    <div id="container">
+      <section class="esquerda">
+        <img src="./images/coding.gif" alt="" />
+      </section>
+
+      <form id="form">
+        <div id="title"><h1>CRIAR CONTA</h1></div>
+        <div class="inputs">
+          <input
+            id="input-username"
+            type="text"
+            placeholder="User name"
+            name="username"
+          />
+          <input
+            name="password"
+            id="input-password"
+            type="password"
+            placeholder="Password"
+          />
+          <input
+            id="repeat-password"
+            name="password-repeat"
+            type="password"
+            placeholder="Repeat Password"
+          />
+        </div>
+        <button type="button" id="btn-create-account" onclick="createAccount()">
+          CRIAR
+        </button>
+        <a id="link" href="./index.html">VOLTAR</a>
+      </form>
+    </div>
+
+    <script src="./js/createAccount.js"></script>
+  </body>
+</html>

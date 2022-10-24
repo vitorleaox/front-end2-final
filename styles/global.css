@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2? family= Mukta:wght@600 & display=swap");
+/* font-family: 'Mukta', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  color: #000000;
+  font-family: "Mukta", sans-serif;
+  background: linear-gradient(120deg, #b0f4e9 44.9%, #6185a1 45%) no-repeat
+    fixed;
+}
+
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.esquerda {
+  height: 100%;
+  width: 40%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 32px;
+}
+
+#titulo {
+  margin-bottom: 24px;
+}
+.esquerda > img {
+  width: 80%;
+  height: 50%;
+}
+
+#form {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs > input {
+  font-size: 16px;
+  padding: 4px;
+  border: 1px #949494 solid;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  background-color: #000000;
+  color: #fff;
+}
+
+.inputs > input:focus {
+  background-color: #5d4949;
+  outline: none;
+}
+
+.inputs {
+  margin-bottom: 24px;
+  justify-content: center;
+}
+
+#btn-login,
+#btn-create-account {
+  font-size: 16px;
+  background-color: #31d2de;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  width: 120px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+#link {
+  color: #11f524;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.inputs {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex;
+}
+
+.inputs > input {
+  margin-bottom: 24px;
+}
